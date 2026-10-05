@@ -1,0 +1,11 @@
+[tool.black]
+line-length = 79
+include = '^/workflow/scripts/.*(\.pyi?|\.ipynb)$'
+
+[tool.isort]
+profile = "black"
+line_length = 79
+src_paths = ["workflow/scripts"]
+
+[tool.pyright]
+defineConstant = { DEBUG = true }

@@ -9,7 +9,6 @@ version = "0.1.0"
 
 [dependencies]
 python = "3.13.*"
-polars = ">=1.44.2,<2"
 flash-attn = ">=2.8.3,<3"
 xformers = ">=0.0.34,<0.0.35"
 pytorch = "2.11.*"
